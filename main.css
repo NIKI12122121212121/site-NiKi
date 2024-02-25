@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    font-size: 22px;
+    color:#E19F9B;
+    text-decoration: none;
+}
+body{
+    width: 100vw;
+}
+header{
+    width: 100%;
+    height:684px;
+    background-color:#F4F0E4;
+}
+header>div{
+    margin-top: 250px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+header>div>p{
+    color: #E86566;
+    font-size: 44px;
+}
+nav{
+    margin: 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    width: 77px;
+    height: 34px;
+}
+nav a{
+    padding: 5px 10px;
+    margin:0 5px;
+    font-size: 28px;
+    color: #E86566;
+}
+nav a:hover{
+    border-bottom:4px solid #E86566;
+}
+
+
+#section_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 716px;
+    background-color:#F4F0E4;
+}
+#section_1>p{
+    color: #E86566;
+    font-size: 33px;
+}
+#section_1 p:nth-last-child(2){
+    margin-bottom: 20px;
+}
+#prices{
+    display: flex;
+    gap: 90px;
+}
+.price{
+    border: 2px solid #E19F9B;
+    width: 400px;
+    height: 615px;
+}
+
+#section_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    height: 716px;
+    background-color:#F4F0E4;
+}
+.div_section2 p{
+    color: #D65862;
+    font-size: 65px;
+}
+.div2_section2{
+    color: #E19F9B;
+    font-size: 26px;
+}
+
+.div_section2{
+    margin-bottom: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    margin-bottom:20px;
+    height: 70px;
+    width: 648px;
+    border: 2px solid #E19F9B;
+    background-color: #F4F0E4;
+    border-radius: 20px;
+}
+
+form input:nth-last-child(2){
+    height: 100px;
+    width: 648px;
+    border: 2px solid #E19F9B;
+    background-color: #F4F0E4;
+    border-radius: 20px;
+}
+
+form button{
+    width: 140px;
+    height: 90px;
+    border: none;
+    border-radius: 20px;
+    font-size: 30px;
+    color: #ffffff;
+    background-color:#D65862;
+}
+form p{
+    font-size: 26px;
+}
+.text{
+    color: #D65862;
+}
+.required{
+    color: #E19F9B;
+}
+form div{
+    display: flex;
+}
+
+footer{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #ffffff;
+    height: 200px;
+}
+footer p:first-child{
+    font-size:111px;
+}
+.link{
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.link a:hover{
+    border-bottom:2px solid #E86566;
+}
+footer p{
+    color: #E86566;
+    font-size: 22px;
+}
